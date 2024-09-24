@@ -158,7 +158,7 @@ if st.session_state.transcript:
     )
 
     # Option to display summary as bullet points, store checkbox value in session_state
-    st.session_state.display_summary = st.checkbox("📝 Display summary in bullet points", value=st.session_state.display_summary)
+    st.session_state.display_summary = st.checkbox("📝 Display transcrbe in bullet points", value=st.session_state.display_summary)
 
     if st.session_state.display_summary:
         bullets = st.session_state.transcript.split(". ")
