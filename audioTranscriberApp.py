@@ -106,7 +106,7 @@ start_transcribe_button = st.sidebar.button("🚀 Start Transcribing")
 # Caching the model loading
 @st.cache_resource
 def load_model():
-    model_size = "large-v3"
+    model_size = "tiny"
     model = WhisperModel(model_size, device="cpu", compute_type="int8")
     return model
 
