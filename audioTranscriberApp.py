@@ -125,7 +125,8 @@ if start_transcribe_button:
 
         # Display a progress bar during processing
         with st.spinner('Transcribing...'):
-            segments, info = model.transcribe(audio_bytes, beam_size=5, language="en", condition_on_previous_text=False)
+            # segments, info = model.transcribe(audio_bytes, beam_size=5, language="en", condition_on_previous_text=False)
+            segments, info = model.transcribe(audio_bytes, beam_size=5, condition_on_previous_text=False)
 
         # Show detected language and probability
         st.write(f"### Detected language: {info.language} with probability **{info.language_probability:.2f}**")
