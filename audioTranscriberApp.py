@@ -8,6 +8,7 @@ st.set_page_config(
     page_title="AI Podcast Transcriber",
     page_icon="🎙️",
     layout="centered",
+     initial_sidebar_state="expanded"
 )
 
 # Custom CSS for styling
