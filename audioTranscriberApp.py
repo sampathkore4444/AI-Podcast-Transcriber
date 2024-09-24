@@ -84,7 +84,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # App title and header
-st.title("🎙️ Talk2Text AI Podcast Transcriber")
+st.title("🎙️ Talk2Text AI Transcriber")
 st.sidebar.header("Transcription Section")
 
 # Ensure transcript is stored in session_state
