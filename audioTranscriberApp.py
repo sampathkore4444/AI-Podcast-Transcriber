@@ -5,7 +5,7 @@ from io import BytesIO
 
 # Set up page configuration
 st.set_page_config(
-    page_title="AI Podcast Transcriber",
+    page_title="Talk2Text AI Transcriber",
     page_icon="🎙️",
     layout="centered",
      initial_sidebar_state="expanded"
